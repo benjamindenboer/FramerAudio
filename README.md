@@ -20,7 +20,7 @@ All included properties and methods.
 
 | Properties    | Type          | Parameters | Description |
 | ------------- | ------------- | ----------- |----------- |
-| Audio.wrap    | Method  |  `play, pause`  | Wrap audio obbject around 2 layers. |
+| Audio.wrap    | Method  |  `play, pause`  | Wrap audio object around 2 layers. |
 | audio   | String  |   | Source of the audio file. |
 | showProgress   | Method  | `slider, knob` | Wrap progress logic around 2 layers. |
 | showVolume  | Method  | `slider, knob` | Wrap volume logic around 2 layers. |
