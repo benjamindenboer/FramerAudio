@@ -29,6 +29,7 @@ All included properties and methods.
 <br>
 
 ## Get Started
+[Download example file](https://framer.cloud/BsbYC) or learn more below.
 First, grab the `audio.coffee` file and place it within the `/modules` folder (located within your `.framer` folder).
 Then, to include the module, `require` both the `Audio` and `Slider` classes:
 
@@ -45,7 +46,6 @@ audio = Audio.wrap(play, pause)
 audio.audio = "audio.mp3"
 ```
 
-[Download example file](https://framer.cloud/BsbYC).
 
 
 
