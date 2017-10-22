@@ -17,7 +17,7 @@
 ---
 
 ## Overview
-Introduction.
+An overview of included properties and methods.
 
 
 | Properties    | Type          | Parameters | Description |
@@ -30,7 +30,15 @@ Introduction.
 | showTimeLeft | Method  | `timeLeft` | Show time left with a TextLayer. |
 
 
+## Get Started
+First, grab the `audio.coffee` file and place it within the `/modules` folder (located within your `.framer` folder).
+Then, to include the module, `require` both the `Audio` and `Slider` classes:
 
+```javascript
+# Include the module
+{Audio, Slider} = require "audio"
+
+```
 
 
 
