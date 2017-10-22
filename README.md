@@ -3,5 +3,6 @@
   Framer Audio<br>
 </h1>
 <p align="center">
-    Design with Audio in Framer.
+    Design with Audio in Framer. <br>
+    🖥 🎶 📱
 </p>
