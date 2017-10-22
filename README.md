@@ -27,6 +27,8 @@ All included properties and methods.
 | showTime | Method  | `time` | Show time with a TextLayer. |
 | showTimeLeft | Method  | `timeLeft` | Show time left with a TextLayer. |
 
+Also included: the `Slider.wrap` method.
+
 | Properties    | Type          | Parameters | Description |
 | ------------- | ------------- | ----------- |----------- |
 | Slider.wrap    | Method  |  `background, fill, knob`  | Wrap slider logic around 3 layers. |
