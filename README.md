@@ -22,12 +22,12 @@ Introduction.
 
 | Properties    | Type          | Parameters | Description |
 | ------------- | ------------- | ----------- |----------- |
-| Audio.wrap    | Method  |  `backgroundLayer, fillLayer, knobLayer`  | Wrap slider logic around 3 layers. |
+| Audio.wrap    | Method  |  `background, fill, knob`  | Wrap slider logic around 3 layers. |
 | audio   | String  |   |
-| showProgress   | Method  | `sliderLayer, knobLayer` | Wrap progress logic around 2 layers. |
-| showVolume  | Method  | `sliderLayer, knobLayer` | Wrap volume logic around 2 layers. |
-| showTime | Method  | `timeLayer` | Show time with a TextLayer. |
-| showTimeLeft | Method  | `timeLeftLayer` | Show time left with a TextLayer. |
+| showProgress   | Method  | `slider, knob` | Wrap progress logic around 2 layers. |
+| showVolume  | Method  | `slider, knob` | Wrap volume logic around 2 layers. |
+| showTime | Method  | `time` | Show time with a TextLayer. |
+| showTimeLeft | Method  | `timeLeft` | Show time left with a TextLayer. |
 
 
 
