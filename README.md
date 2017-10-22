@@ -3,12 +3,9 @@
   Framer Audio<br>
   <img src="https://d.pr/i/YrdGtQ+" width="50">
   <br>
-  <br>
 </h1>
 <br>
-<p align="center">
-  <br>
-  
+<p align="center">  
   <img src="https://cdn-std.dprcdn.net/files/acc_589332/rWg5bh" width="840" alt="banner">
   <br>
   <p align="center">From music player mock-ups in Design, to audio players in Code. A Framer module that allows you to design audio interfaces and states, and then bring them to life.</p>
