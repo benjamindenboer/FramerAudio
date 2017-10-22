@@ -1,7 +1,7 @@
 <h1 align="center">
   <img src="https://d.pr/i/vnA8Vm+" width="160" alt="icon"><br>
   Framer Audio<br>
-  <img src="https://d.pr/i/bdoeyw+" width="92">
+  <img src="https://d.pr/i/AgxIOT+" width="50">
   <br>
   <br>
 </h1>
