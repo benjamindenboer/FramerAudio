@@ -58,9 +58,9 @@ audio.audio = "audio.mp3"
 The layers are automatically made part of the same object—and the play and pause interactions are functional by default. 
 
 ## Examples
-- Play, Pause Example — https://framer.cloud/BsbYC
-- Slider Wrapping Example — https://framer.cloud/BlHxd
-- Audio Player Example — https://framer.cloud/pHMBF
+- **Play, Pause.** Two artboards, one Audio object. https://framer.cloud/BsbYC
+- **Slider Wrapping.** From 3 layers in Design to an interactive slider in Code. https://framer.cloud/BlHxd
+- **Audio Player**. With current time, duration and progress sliding. https://framer.cloud/pHMBF
 
 ## More Resources
 - W3S Audio DOM Reference — https://www.w3schools.com/tags/ref_av_dom.asp
