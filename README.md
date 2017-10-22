@@ -19,7 +19,7 @@ An overview of included properties and methods.
 
 | Properties    | Type          | Parameters | Description |
 | ------------- | ------------- | ----------- |----------- |
-| Audio.wrap    | Method  |  `background, fill, knob`  | Wrap slider logic around 3 layers. |
+| Audio.wrap    | Method  |  `play, pause`  | Wrap slider logic around 2 layers. |
 | audio   | String  |   |
 | showProgress   | Method  | `slider, knob` | Wrap progress logic around 2 layers. |
 | showVolume  | Method  | `slider, knob` | Wrap volume logic around 2 layers. |
@@ -34,7 +34,6 @@ Then, to include the module, `require` both the `Audio` and `Slider` classes:
 ```
 # Include the module
 {Audio, Slider} = require "audio"
-
 ```
 
 Next, you’ll likely want to define two basic states in Design: a *play* and *pause* state. I’ve named these layers `play` and `pause` respectively, and made them targetable in Code. Next, I’ll wrap the `Audio` object around these layers, and store the entire object in a variable named `audio`.
