@@ -13,7 +13,7 @@
 
 ---
 
-## 📄 Overview
+## Overview
 An overview of included properties and methods.
 
 
@@ -27,7 +27,7 @@ An overview of included properties and methods.
 | showTimeLeft | Method  | `timeLeft` | Show time left with a TextLayer. |
 
 
-## ▶️ Get Started
+## Get Started
 First, grab the `audio.coffee` file and place it within the `/modules` folder (located within your `.framer` folder).
 Then, to include the module, `require` both the `Audio` and `Slider` classes:
 
