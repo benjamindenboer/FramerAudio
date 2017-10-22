@@ -11,10 +11,10 @@
   <p align="center">From music player mock-ups in Design, to audio players in Code. A Framer module that allows you to design audio interfaces and states, and then bring them to life.</p>
 </p>
 
----
+<br>
 
 ## Overview
-An overview of included properties and methods.
+All included properties and methods.
 
 
 | Properties    | Type          | Parameters | Description |
@@ -26,6 +26,7 @@ An overview of included properties and methods.
 | showTime | Method  | `time` | Show time with a TextLayer. |
 | showTimeLeft | Method  | `timeLeft` | Show time left with a TextLayer. |
 
+<br>
 
 ## Get Started
 First, grab the `audio.coffee` file and place it within the `/modules` folder (located within your `.framer` folder).
