@@ -70,5 +70,5 @@ The layers are automatically made part of the same object—and the play and pau
 ---
 
 ## Contact
-- Follow <a href="https://twitter.com/benjaminnathan">@benjaminnathan</a> on Twitter.
+- Follow me on Twitter <a href="https://twitter.com/benjaminnathan">@benjaminnathan</a>.
 - Follow <a href="https://twitter.com/framer">@framer</a> on Twitter.
