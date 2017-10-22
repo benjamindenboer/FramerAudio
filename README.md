@@ -45,6 +45,8 @@ audio = Audio.wrap(play, pause)
 audio.audio = "audio.mp3"
 ```
 
+[Download example file](https://framer.cloud/BsbYC).
+
 
 
 
