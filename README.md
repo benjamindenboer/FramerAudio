@@ -34,13 +34,19 @@ An overview of included properties and methods.
 First, grab the `audio.coffee` file and place it within the `/modules` folder (located within your `.framer` folder).
 Then, to include the module, `require` both the `Audio` and `Slider` classes:
 
-```javascript
+```
 # Include the module
 {Audio, Slider} = require "audio"
 
 ```
 
+Next, you’ll likely want to define two basic states in Design: a *play* and *pause* state. I’ve named these layers `play` and `pause` respectively, and made them targetable in Code. Next, I’ll wrap the `Audio` object around these layers, and store the entire object in a variable named `audio`.
 
+```
+# Wrap AudioLayer
+audio = Audio.wrap(play, pause)
+audio.audio = "audio.mp3"
+```
 
 
 
