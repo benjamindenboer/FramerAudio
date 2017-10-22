@@ -19,12 +19,17 @@ All included properties and methods.
 
 | Properties    | Type          | Parameters | Description |
 | ------------- | ------------- | ----------- |----------- |
-| Audio.wrap    | Method  |  `play, pause`  | Wrap slider logic around 2 layers. |
+| Audio.wrap    | Method  |  `play, pause`  | Wrap audio obbject around 2 layers. |
 | audio   | String  |   | Source of the audio file. |
 | showProgress   | Method  | `slider, knob` | Wrap progress logic around 2 layers. |
 | showVolume  | Method  | `slider, knob` | Wrap volume logic around 2 layers. |
 | showTime | Method  | `time` | Show time with a TextLayer. |
 | showTimeLeft | Method  | `timeLeft` | Show time left with a TextLayer. |
+
+| Properties    | Type          | Parameters | Description |
+| ------------- | ------------- | ----------- |----------- |
+| Slider.wrap    | Method  |  `background, fill, knob`  | Wrap slider logic around 3 layers. |
+
 
 <br>
 
@@ -47,9 +52,20 @@ audio = Audio.wrap(play, pause)
 audio.audio = "audio.mp3"
 ```
 
+The layers are automatically made part of the same object—and the play and pause interactions are functional by default. 
 
+## Examples
+- Play, Pause Example — https://framer.cloud/BsbYC
+- Slider Wrapping Example — https://framer.cloud/BlHxd
+- Audio Player Example — https://framer.cloud/pHMBF
 
+## More Resources
+- W3S Audio DOM Reference — https://www.w3schools.com/tags/ref_av_dom.asp
+- MDN Audio Reference — https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio
+- MDN Media Events — https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Media_events
 
+---
 
-
-
+## Contact
+- Follow <a href="https://twitter.com/benjaminnathan">@benjaminnathan</a> on Twitter.
+- Follow <a href="https://twitter.com/framer">@framer</a> on Twitter.
