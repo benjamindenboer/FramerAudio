@@ -24,8 +24,8 @@ All included properties and methods.
 | audio   | String  |   | Source of the audio file. |
 | showProgress   | Method  | `slider, knob` | Wrap progress logic around 2 layers. |
 | showVolume  | Method  | `slider, knob` | Wrap volume logic around 2 layers. |
-| showTime | Method  | `time` | Show time with a TextLayer. |
-| showTimeLeft | Method  | `timeLeft` | Show time left with a TextLayer. |
+| showTime | Method  | `time` | Display current time with a TextLayer. |
+| showTimeLeft | Method  | `timeLeft` | Display time left with a TextLayer. |
 
 Also included: the `Slider.wrap` method.
 
