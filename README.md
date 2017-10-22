@@ -23,11 +23,11 @@ Introduction.
 | Properties    | Type          | Parameters | Description |
 | ------------- | ------------- | ----------- |----------- |
 | Audio.wrap    | Method  |  `backgroundLayer, fillLayer, knobLayer`  | Wrap slider logic around 3 layers. |
-| Audio.audio   | String  |   |
-| Audio.showProgress   | Method  | `sliderLayer, knobLayer` | Wrap progress logic around 2 layers. |
-| Audio.showVolume  | Method  | `sliderLayer, knobLayer` | Wrap volume logic around 2 layers. |
-| Audio.showTime | Method  | `timeLayer` | Show time with a TextLayer. |
-| Audio.showTimeLeft | Method  | `timeLeftLayer` | Show time left with a TextLayer. |
+| audio   | String  |   |
+| showProgress   | Method  | `sliderLayer, knobLayer` | Wrap progress logic around 2 layers. |
+| showVolume  | Method  | `sliderLayer, knobLayer` | Wrap volume logic around 2 layers. |
+| showTime | Method  | `timeLayer` | Show time with a TextLayer. |
+| showTimeLeft | Method  | `timeLeftLayer` | Show time left with a TextLayer. |
 
 
 
