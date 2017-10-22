@@ -20,7 +20,7 @@ All included properties and methods.
 | Properties    | Type          | Parameters | Description |
 | ------------- | ------------- | ----------- |----------- |
 | Audio.wrap    | Method  |  `play, pause`  | Wrap slider logic around 2 layers. |
-| audio   | String  |   |
+| audio   | String  |   | Source of the audio file. |
 | showProgress   | Method  | `slider, knob` | Wrap progress logic around 2 layers. |
 | showVolume  | Method  | `slider, knob` | Wrap volume logic around 2 layers. |
 | showTime | Method  | `time` | Show time with a TextLayer. |
