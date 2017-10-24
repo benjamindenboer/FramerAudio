@@ -336,7 +336,13 @@ class exports.Audio extends Layer
 		@player.oncanplay = =>
 			layer.max = Math.round(@player.duration)
 
-		layer._knob.draggable.momentum = false
+		# Design layer knob or code layer knob
+		if layer._knob
+			currentKnob = layer._knob
+		else
+			currentKnob = layer.knob
+
+		currentKnob.draggable.momentum = false
 
 		# Check if the player was playing
 		wasPlaying = isMoving = false
@@ -353,10 +359,10 @@ class exports.Audio extends Layer
 
 		layer.onTapStart =>
 			@player.currentTime = layer.value
-		layer._knob.onDragMove =>
+		currentKnob.onDragMove =>
 			isMoving = true
 
-		layer._knob.onDragEnd (event) =>
+		currentKnob.onDragEnd (event) =>
 			currentTime = Math.round(@player.currentTime)
 			duration = Math.round(@player.duration)
 
@@ -374,7 +380,7 @@ class exports.Audio extends Layer
 		@player.ontimeupdate = =>
 
 			unless isMoving
-				layer._knob.midX = layer.pointForValue(@player.currentTime)
+				currentKnob.midX = layer.pointForValue(@player.currentTime)
 				isMoving = false
 
 			if @_time
@@ -387,11 +393,17 @@ class exports.Audio extends Layer
 		# Set default to 75%
 		@player.volume ?= 0.75
 
+		# Design layer knob or code layer knob
+		if layer._knob
+			currentKnob = layer._knob
+		else
+			currentKnob = layer.knob
+
 		layer.min = 0
 		layer.max = 1
 		layer.value = @player.volume
 
-		layer._knob.draggable.momentum = false
+		currentKnob.draggable.momentum = false
 
 		layer.on "change:value", =>
 			@player.volume = layer.value
