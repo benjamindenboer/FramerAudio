@@ -21,8 +21,8 @@ All included properties and methods.
 | ------------- | ------------- | ----------- |----------- |
 | Audio.wrap    | Method  |  `play, pause`  | Wrap audio object around 2 layers. |
 | audio   | String  |   | Source of the audio file. |
-| showProgress   | Method  | `slider, knob` | Wrap progress logic around 2 layers. |
-| showVolume  | Method  | `slider, knob` | Wrap volume logic around 2 layers. |
+| showProgress   | Method  | `slider` | Use slider to manipulate audio progress. |
+| showVolume  | Method  | `slider` | Use slider to manipulate audio volume. |
 | showTime | Method  | `time` | Display current time with a TextLayer. |
 | showTimeLeft | Method  | `timeLeft` | Display time left with a TextLayer. |
 
