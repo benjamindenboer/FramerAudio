@@ -331,12 +331,12 @@ class exports.Audio extends Layer
 		@player.on "loadedmetadata", =>
 			@_timeLeft.text = "-" + @player.formatTimeLeft()
 
-	setProgress: (layer, knob) ->
+	setProgress: (layer) ->
 
 		@player.oncanplay = =>
 			layer.max = Math.round(@player.duration)
 
-		knob.draggable.momentum = false
+		layer._knob.draggable.momentum = false
 
 		# Check if the player was playing
 		wasPlaying = isMoving = false
@@ -353,10 +353,10 @@ class exports.Audio extends Layer
 
 		layer.onTapStart =>
 			@player.currentTime = layer.value
-		knob.onDragMove =>
+		layer._knob.onDragMove =>
 			isMoving = true
 
-		knob.onDragEnd (event) =>
+		layer._knob.onDragEnd (event) =>
 			currentTime = Math.round(@player.currentTime)
 			duration = Math.round(@player.duration)
 
@@ -374,8 +374,7 @@ class exports.Audio extends Layer
 		@player.ontimeupdate = =>
 
 			unless isMoving
-				knob.midX = layer.pointForValue(@player.currentTime)
-				# layer.value = layer.valueForPoint(knob.midX)
+				layer._knob.midX = layer.pointForValue(@player.currentTime)
 				isMoving = false
 
 			if @_time
@@ -383,7 +382,7 @@ class exports.Audio extends Layer
 			if @_timeLeft
 				@_timeLeft.text = "-" + @player.formatTimeLeft()
 
-	setVolume: (layer, knob) ->
+	setVolume: (layer) ->
 
 		# Set default to 75%
 		@player.volume ?= 0.75
@@ -392,16 +391,16 @@ class exports.Audio extends Layer
 		layer.max = 1
 		layer.value = @player.volume
 
-		knob.draggable.momentum = false
+		layer._knob.draggable.momentum = false
 
 		layer.on "change:value", =>
 			@player.volume = layer.value
 
-	showProgress: (layer, knob) ->
-		return @setProgress(layer, knob)
+	showProgress: (layer) ->
+		return @setProgress(layer)
 
-	showVolume: (layer, knob) ->
-		return @setVolume(layer, knob)
+	showVolume: (layer) ->
+		return @setVolume(layer)
 
 	showTime: (layer) ->
 		return @getTime(layer)
