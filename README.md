@@ -105,5 +105,5 @@ audio.showVolume(slider)
 ---
 
 ## Contact
-- Follow me on Twitter <a href="https://twitter.com/benjaminnathan">@benjaminnathan</a>.
-- Follow <a href="https://twitter.com/framer">@framer</a> on Twitter.
+- Follow me <a href="https://twitter.com/benjaminnathan">@benjaminnathan</a>.
+- Follow <a href="https://twitter.com/framer">@framer</a>.
