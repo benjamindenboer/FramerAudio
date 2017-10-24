@@ -137,9 +137,9 @@ class exports.Slider extends Layer
 
 	_knobDidMove: =>
 		if @_background.width > @_background.height
-			@value = @valueForPoint(knob.midX)
+			@value = @valueForPoint(@_knob.midX)
 		else
-			@value = @valueForPoint(knob.midY)
+			@value = @valueForPoint(@_knob.midY)
 
 	_updateValue: =>
 		return if @_lastUpdatedValue is @value
