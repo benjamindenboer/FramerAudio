@@ -94,6 +94,9 @@ audio.showVolume(slider)
 ## Time & Time Left
 The module includes two methods that will automatically update the `text` contents of a `TextLayer` to reflect either the current track time, and the time left. These will automatically update—also when a progress slider is being edited.
 
+- `showTime(layer)` — show current time with a text layer.
+- `showTimeLeft(layer)` — show current time left with a text layer.
+
 ```
 # Show the current time and time left
 audio.showTime(time)
