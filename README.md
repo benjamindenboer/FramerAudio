@@ -57,15 +57,50 @@ audio.audio = "audio.mp3"
 
 The layers are automatically made part of the same object—and the play and pause interactions are functional by default. 
 
+---
+
+## Volume & Progress Sliders
+If you’d like to add volume or progress sliders, you’ll either need to define a [SliderComponent in Code](https://framer.com/docs/?utm_source=github&utm_medium=link&utm_campaign=framer_audio_benjamin#slider.slidercomponent), or use the included `Slider.wrap` method. 
+
+```
+# Slider via Code
+slider = new SliderComponent
+
+# Slider via Design
+slider = Slider.wrap(bg, fill, knob)
+```
+
+The `Slider.wrap` method takes three parameters:
+- `background` — The background layer of the slider.
+- `fill` — The fill layer of the slider.
+- `knob` – The knob layer of the slider.
+
+All of these can be styled completely in the design. The method wraps a component around these 3 layers to handle all of the sliding functionality for you.
+
+Once you have set-up a slider, you can make it reflect the **progress** or the **volume**.
+
+- `showProgress(layer)` — adjust audio track progress.
+- `showVolume(layer)` — adjust audio track volume.
+
+```
+# Show and edit audio progress 
+audio.showProgress(slider)
+
+# Show and edit audio volume 
+audio.showVolume(slider)
+```
+
+---
+
 ## Examples
-- **Play, Pause.** Two artboards, one Audio object. https://framer.cloud/BsbYC
-- **Slider Wrapping.** From 3 layers in Design to an interactive slider in Code. https://framer.cloud/BlHxd
-- **Audio Player**. With current time, duration and progress sliding. https://framer.cloud/pHMBF
+- **[Play, Pause](https://framer.cloud/BsbYC)**. Two artboards, one Audio object.
+- **[Slider Wrapping](https://framer.cloud/BlHxd).** From 3 layers in Design to an interactive slider in Code.
+- **[Audio Player](https://framer.cloud/pHMBF)**. With current time, duration and progress sliding.
 
 ## More Resources
-- W3S Audio DOM Reference — https://www.w3schools.com/tags/ref_av_dom.asp
-- MDN Audio Reference — https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio
-- MDN Media Events — https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Media_events
+- [W3S Audio DOM Reference](https://www.w3schools.com/tags/ref_av_dom.asp).
+- [MDN Audio Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio).
+- [MDN Media Events](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Media_events).
 
 ---
 
