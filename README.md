@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://d.pr/i/vnA8Vm+" width="160" alt="icon"><br>
+  <img src="https://d.pr/i/drbCsl+" width="160" alt="icon"><br>
   Framer Audio<br>
   <br>
 </h1>
