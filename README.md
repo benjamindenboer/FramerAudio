@@ -5,7 +5,7 @@
 </h1>
 <br>
 <p align="center">  
-  <img src="https://d.pr/i/5AIZVa+" width="840" alt="banner">
+  <img src="https://d.pr/i/P07cvV+" width="840" alt="banner">
   <br>
   <h6 align="center">INTRODUCTION</h6>
   <p align="center">From music player mocks in <a href="https://framer.com/features/design?utm_source=github&utm_medium=link&utm_campaign=framer_audio_benjamin">Design</a>, to fully functional audio players in <a href="https://framer.com/features/code?utm_source=github&utm_medium=link&utm_campaign=framer_audio_benjamin">Code</a>. A <strong>Framer</strong> module that allows you to design audio interfaces for iOS, Android, Desktop and more—and then bring them to life. From play buttons to volume sliders.</p>
