@@ -116,6 +116,7 @@ Please note that these methods only work with **TextLayers** from either Design 
 - [W3S Audio DOM Reference](https://www.w3schools.com/tags/ref_av_dom.asp).
 - [MDN Audio Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio).
 - [MDN Media Events](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Media_events).
+- [Audio and Video Tag in HTML](https://www.scaler.com/topics/html/Video-tag-and-audio-tag-in-html/)
 
 ---
 
